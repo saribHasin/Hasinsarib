@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <style>
+         @media only screen and (max-width:500px){
+            body{
+                display: block;
+                background-color: rgb(255, 11, 11);
+            }
+        }
+        @media only screen and (min-width:500px) and (max-width:1000px){
+            body{
+                display: block;
+                background-color: rgb(60, 0, 255);
+            }
+        }
+        @media (min-width:500px) and  (max-width:800px){
+            body{
+                display: block;
+                /* color: black; */
+                background-color: hwb(63 4% 2%);
+            }
+       }
+        @media(min-width:800px){
+            body{
+                background-color: green;
+            }
+        }
+        .bdr {
+            border: 2px solid black;
+            padding: 20px 20px;
+            margin: 60px;
+            background-color: rgb(217, 220, 173);
+        }
+        .navbar{
+            background-color: rgb(51, 220, 209);
+            border-radius: 30px;
+        
+
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            margin: 20px 30px;
+            padding: 10px;
+        }
+        input{
+            background-color: rgb(104, 235, 23);
+            border-radius: 200px;
+            /* height: 50px; */
+            float: right;
+            text-align: center;
+            padding: 12px;
+            margin: 10px 3px;
+        }
+        .navbar li a{
+            
+
+            border-radius: 20px;
+            height: 0px;
+
+        }
+       
+        body{
+            background-color: rgb(25, 176, 235);
+            background: url("https://images.pexels.com/photos/6214478/pexels-photo-6214478.jpeg?auto=compress&cs=tinysrgb&w=600");
+            background-size: cover;
+            background-blend-mode: multiply;
+        }
+                
+    
+        footer{
+            border-radius: 200px;
+        }
+        h1{
+            align-content: center;
+            margin: 10px 609px;
+            padding: 1px 5px;
+            align-items: center;
+            
+            
+        }
+        .nav{
+            display: grid;
+            grid-gap: 2rem;
+            
+            
+        }
+        .items{
+            border: 10px solid black;
+            background-color: rgb(164, 230, 222);
+            border-bottom-right-radius: 30px 30px 40pc black;
+            box-shadow: 15px 8px 8px rgb(136, 255, 0);
+            text-shadow: 3px 4px rgb(64, 11, 255);
+            border-radius: 200px;
+            align-items: center;
+            font-weight: bold;
+            
+            
+           
+        }
+ 
+        
+        .container{
+            /* border: 2px solid black; */
+            background-color:  rgb(176, 176, 48);
+            padding: 100px 200px;
+            margin: 29px 150px 20px;
+            grid-template-columns: 12px 12px 12px;
+            width: 400px;
+            height: 400px;
+            background-color: rgb(202, 195, 195);
+            /* border:5px solid black; */
+            border-radius: 18px;
+            
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center; */
+            transition: all 0.5s is ease-in-out;
+            box-shadow: 15px 8px 8px yellowgreen;
+        }
+        .container-1{
+            /* border: 2px solid black; */
+            background-color:  rgb(176, 176, 48);
+            padding: 100px 200px ;
+            margin: 30px 150px 29px;
+            grid-template-columns: 12px 12px 12px;
+            width: 300px;
+            height: 300px;
+            background-color: rgb(202, 195, 195);
+            /* border:5px solid black; */
+            border-radius: 18px;
+            
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center; */
+            transition: all 0.5s is ease-in-out;
+            box-shadow: 15px 8px 8px yellowgreen;
+        }
+      
+       
+      
+        h2{
+            align-content: center;
+            margin: 50px 41px 30px;
+            padding: 80px 50px 40px;
+            align-items: center;
+        }
+        footer{
+            border-radius: 2000px;
+        }
+        h3{
+            align-content: center;
+            margin: 10px 51px 50px;
+            padding: 100px 5px 10px;
+            align-items: center;
+
+        }
+        aside{
+            grid-area: aside;
+            text-align: center;
+            border-radius: 200px;
+            
+        }
+      
+        /* .container{
+            margin: 20px 20px 20px;
+        } */
+    </style>
+
+</head>
+<!-- <body> 
+    <input type="date">
+    <br><br>
+    <input type="datetime-local">
+    <br><br>
+    <input type="time"> -->
+   
+     <div class="nav">
+        <div class="items"><h1><b><i> BEAUTY CLOTHES  ADDA</i></b></h1></div>
+        
+        
+       
+        
+    </div>
+    <!-- <script>
+        let name = prompt ("sarib hasin  are you comfortable open this link.", "guest");
+        console.log(name);
+    </script> -->
+    
+    <!-- <header> -->
+        
+        <nav class="navbar">
+            <ul>
+              
+                <li><a href="a"><b>home</b></a></li>
+                <li><a href="a"><b>about</b></a></li>
+                <li><a href="a"><b>services</b></a></li>
+                <li><a href="a"><b>contact us</b></a></li>
+                <input type="text" name="search" id="search" placeholder="search-product">
+
+            </ul>
+           
+        </nav>
+        <div class="container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY44gX1jH_1e6yOMrVs7iLB2LsOlbXX4DkgQ&usqp=CAU">
+                <!-- <button id="btn" onclick="togalhide()">show/hide</button>
+                <script>
+                    function togglehide(){
+                        let btn = document.getelementbyid ('btn');
+                        let para = document.getelementbyid ('para');
+                        para . style . display  = 'none';
+
+                    }
+                    else{
+                        para.style.display = 'block';
+                    }
+                </script> -->
+           
+                    <H3>
+                       <B>ATPX</B><I> baby girls casual jacket</I>
+                        $20
+                          30%off
+                    </H3>
+                </div>
+                <div class="container">
+                    <img src="https://rukminim1.flixcart.com/image/400/400/jgy0fbk0/bath-towel/p/6/3/ultra-soft-hooded-classic-and-designer-baby-bath-towel-bath-original-imaeqx28bykqqscx.jpeg?q=70">
+                    
+                    <H3>
+                        <B>wild craft</B><I> full sleeve sweter</I>
+                         $20
+                           30%off
+                           
+                     </H3>
+                </div>
+                <div class="container">
+                    <img src="https://rukminim1.flixcart.com/image/612/612/k0mqtu80/jacket/w/9/6/s-41454-wildcraft-original-imafkdetgkkb4vnj.jpeg?q=70">
+                    
+                    <H3>
+                        <B>wild craft</B><I> full sleeve sweter</I>
+                         $18
+                           30%off
+                     </H3>
+                </div> <div class="container">
+                    <img src="https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/a/h/i/xl-mnt-7025-montrez-original-imag5hb93udpfs4q-bb.jpeg?q=70">
+                    
+                    <H3>
+                        <B>montee carlo</B><I> denim jacket</I>
+                         $30
+                           30%off
+                     </H3>
+                </div>
+            </div> <div class="container">
+                <img src="https://rukminim1.flixcart.com/image/612/612/ktvucnk0/sweatshirt/6/n/p/s-30636-wildcraft-original-imag74tm2hqhe8hr.jpeg?q=70">
+                
+                <H3>
+                    <B>montee carlo</B><I> t-shirts</I>
+                     $30
+                       30%off
+                 </H3>
+            </div>
+            <div class="container">
+                <img src="https://th.bing.com/th/id/OIP.p8pF57XCUruOR7PvbIzdAwHaHa?pid=ImgDet&w=154&h=154&c=7">
+                
+                <H3>
+                    <B>hawafana</B><I> winter, hotjacket</I>
+                     $60
+                       30%off
+                 </H3>
+            </div>
+
+           
+            <div>
+            <!-- <section class="bdr">
+              
+                      </section> -->
+                      <aside class="bdr">
+                        
+                        <h1>more about us</h1>
+                    </aside>
+                    </div>
+                   
+                
+                
+      
+
+    
+</body>
+</html>
